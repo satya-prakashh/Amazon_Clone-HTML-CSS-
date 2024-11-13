@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+/*Header section start*/
+#navbar{
+    height: 50px;
+    padding: 3px;
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/*Logo*/
+#nav-logo img{
+    height: 40px;
+}
+/*Hover is a special class which apply on every div of HEADER*/
+.border:hover{
+    border: 2px solid white;
+}
+/*Hover class end*/
+/*Location*/
+#nav-location{
+    color: white;
+    padding: 5px;
+}
+.deliver{
+   font-size: 12px;
+   margin-left: 17px;
+}
+.pincode{
+    font-size: 14px;
+    font-weight: 555;
+    margin-left: 2px;
+
+}
+.deliver-location{
+    display: flex;
+}
+.deliver-location i{
+    font-size: 15px;
+}
+/*Search bar*/
+#nav-search{
+    background-color: blue;
+    height: 40px;
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+#nav-search select{
+    height: 40px;
+    width: 50px;
+    border: none;
+    background-color: #E6E6E6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+#nav-search input{
+    height: 40px;
+    width: 100%;
+    border: none;
+}
+#nav-search i{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #FEBD69;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 14px;
+}
+/*Account and list section*/ /*AND*/ /*Reyurns and orders*/
+#account{
+    color: white;
+    padding: 5px;
+}
+#account p{
+    font-size: 12px;
+}
+#account h3{
+    font-size: 14px;
+    font-weight: 555px;
+}
+/*Cart*/
+#cart{
+    color: white;
+    display: flex;
+    padding: 5px;
+}
+#cart i{
+    font-size: 30px;
+}
+#cart p{
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: end;
+}
+/*Second line of header*/
+#second{
+    height: 40px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+#all{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+#all i{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+#second p{
+    font-size: 14px;
+    font-weight: bold;
+}
+#menu{
+    display: flex;
+}
+#menu p{
+    padding: 5px;
+}
+/*Header section end*/
+
+
+/*Main section start*/
+
+/*Top/ cover image*/
+#top-image img{
+    width: 100vw;
+}
+/*Shop section start*/
+#shop{
+    background-color: #E3E6E6;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#box{
+    background-color: white;
+    height: 380px;
+    width: 23%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*Single image in the box in shop section*/
+.heading-one{
+    font-size: 15px;
+    padding-left: 18px;
+    padding-top: 20px;
+}
+.image-one img{
+    width: 300px;
+    padding-left: 18px;
+    padding-top: 20px;
+}
+.link-one{
+    font-size: 12px;
+    padding-left: 18px;
+    padding-top: 20px;
+}
+.link-one a{
+    text-decoration: none;
+    color: #007185;
+}
+.link-one a:hover{
+    text-decoration: underline;
+    font-size: 13px;
+    color: #8D5F05;
+}
+/*Shop section end*/
+/*Main section end*/
+
+
+/*Footer section Start*/
+#footer{
+    height: 40px;
+    background-color: #37475A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer p{
+    color: white;
+    font-size: 14px;
+}
+/*Second line of footer*/ /*i.e*/ /*All SECTIONS*/
+#final{
+    height: 260px;
+    padding-top: 30px;
+    display: flex;
+    border-bottom: 0.5px solid white;
+    justify-content: space-evenly;
+    background-color: #232F3E;
+}
+#last h3{
+    color: white;
+    font-size: 16px;
+}
+#last ul{
+    list-style-type: none;
+    padding: 10px;
+    line-height: 25px;
+}
+#last a{
+    text-decoration: none;
+    color: #DDD7BA;
+    font-size: 14px;
+}
+#last a:hover{
+    text-decoration: underline;
+    font-size: 15px;
+    color: white;
+}
+/*The end*/
+#end{
+    height: 40px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#end img{
+    height: 30px;
+}   
+#copyrights{
+    color: white;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+/*Footer section end*/
